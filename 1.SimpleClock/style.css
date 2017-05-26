@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Nunito');
+
+body {
+  background-size: cover;
+  background-position: center top; 
+}
+.row {
+  margin-top: 50px;
+  position:relative;
+  margin:auto;
+  text:center;
+}
+
+.greetings {
+  margin-top: 30px;
+  text:center;
+  font-size: 50px;
+  font-family: "Nunito";
+  color: orange;
+}
+
+#clock {
+  font-size: 50px;
+  font-size: 100px;
+  font-family: "Fjalla One";
+}
