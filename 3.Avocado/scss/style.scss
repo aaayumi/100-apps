@@ -1,0 +1,49 @@
+$bg: #f8f4e6;
+$avocado-bg: #F3F17A; 
+$seed-bg: #704012;
+
+body {
+  background: $bg;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avocado {
+  border: 1px solid #704012;
+  width: 50vh;
+  height: 70vh;
+  background: $avocado-bg;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 50px #c0c0c0,
+             
+  inset 0 0 100px 5px #90ee90;
+  border-radius: 70% 70% 50% 50%;
+}
+
+.seed {
+  background: $seed-bg;
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  &:after {
+    filter: blur(2px);
+    content: '';
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, 0) 40%),
+                linear-gradient(to top, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, 0) 22%);
+  }
+}
