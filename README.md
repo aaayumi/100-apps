@@ -1,7 +1,10 @@
-# 100-days-of-app
+# 100-apps
 
-I will make as many web application as possible for 100 days to improve my coding skills. This personal project was inspired by 100 days of code ( #100daysofcode https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4). 
+I will make 100 apps using skills what I learned. 
+
+This project was started with an intention of keep coding for consective 100days. I changed the goal from coding 100days to making 100 apps. 
+
 
 ## Rules 
-- create web applications 
+- create 100 web applications 
 - code at least 1 hour per day
