@@ -11,8 +11,8 @@ This project was started with an intention of keep coding for consective 100days
 
 
 ### List 
-1 SimpleClock
-2 ColorSelector
-3 Avocado
-4 SearchPage
-5 WikiViewer
+- 1 SimpleClock
+- 2 ColorSelector
+- 3 Avocado
+- 4 SearchPage
+- 5 WikiViewer
