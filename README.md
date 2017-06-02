@@ -8,3 +8,11 @@ This project was started with an intention of keep coding for consective 100days
 ## Rules 
 - create 100 web applications 
 - code at least 1 hour per day
+
+
+### List 
+1.SimpleClock
+2.ColorSelector
+3.Avocado
+4.SearchPage
+5.WikiViewer
