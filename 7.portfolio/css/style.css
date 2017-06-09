@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Varela+Round');
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Nav bar */
+nav {
+  top:0;
+  width: 100%;
+  transition:all 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e95388;
+  color: #dcedf7;
+  letter-spacing: 5px;
+  font-family: "Varela Round", Gadget, sans-serif;
+}
+
+body.fixed-nav nav {
+  position: fixed;
+}
+
+ul {
+  float: right;
+}
+
+.nav li {
+  padding-right: 20px;
+}
+
+.nav li:hover {
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+  
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #fff3b8;
+}
+
+/*li.title {
+  max-width: 0;
+  overflow: hidden;
+  transition: all .5s;
+  background: white;
+}
+.fixed-nav li.title {
+  max-width: 500px;
+} */
+
+/*container*/
+.bg-1{
+  background-color: #a3d6cc; 
+  font-family: "Quicksand", Gadget, sans-serif;
+  color: #35343a;
+}
+
+.bg-2 {
+  background-color: #00ac9a;
+  font-family: "Quicksand", Gadget, sans-serif;
+  color: #35343a;
+}
+
+.bg-3 {
+  background-color: #a3d6cc;
+  font-family: "Quicksand", Gadget, sans-serif;
+  color: #35343a;
+}
+
+.bg-4 {
+  background-color: #00ac9a;
+  font-family: "Quicksand", Gadget, sans-serif;
+}
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.bg-1 h1 {
+  font-family: "Varela Round", Gadget, sans-serif;
+   letter-spacing: 5px;
+}
+
+.bg-1 h2 {
+  margin-top: 20px;
+  font-family: "Varela Round", Gadget, sans-serif;
+   letter-spacing: 3px;
+}
+
+
+/* work */
+.bg-2 img {
+  box-shadow: 0 5px 7px rgba(0,0,0,3);
+}
+
+.bg-2 img:hover {
+  box-shadow: 0 5px 7px rgba(0,0,0,3);
+  opacity: 0.5;
+}
+
+.bg-2 h3 {
+  margin-top: 20px;
+}
+
+.bg-2 a {
+  color: white;
+}
+
+.bg-2 a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+/* image*/
+.img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 7px rgba(0,0,0,3);
+}
+
+/*Contact form*/
+.bg-3 .text{
+   padding-left: 50px;
+}
+.bg-3 form {
+  padding-left: 100px;
+  margin-bottom: 10px;
+}
+
+.bg-3 textarea {
+  width: 410px;
+  height: 200px;
+}
+
+.bg-3 ul  {
+  margin-top: 40px;
+  margin-left: 70px;
+  list-style: none;
+  float: left;
+}
+
+.bg-3 li {
+  padding-top: 5px;
+}
+
+.bg-3 a {
+  color: white;
+}
+
+.bg-3 a:hover {
+  color: pink;
+  text-decoration: none;
+}
+/* input.formInput {
+  border: 2px solid black;
+} */
+.bg-3 .formInput {
+  border: 1px solid #202020;
+  box-shadow: 0 2px 3px rgba(0,0,0,3);
+  margin-top: 5px;
+}
+
+.bg-3 .button {
+  background: pink;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #202020;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px 10px 5px 10px;
+   box-shadow: 0 2px 3px rgba(0,0,0,3);
+}
+
+
+.bg-3 .button:hover {
+  background: #fff3b8;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #202020;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,3);
+}
+
+/* footer */
+#footer {
+    height: 70px;
+    padding: 20px
+}
+
+.bg-4 a {
+  color: white;
+}
+
+.bg-4 a:hover {
+  color: pink;
+  text-decoration: none;
+}
