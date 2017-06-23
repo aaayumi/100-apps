@@ -16,3 +16,7 @@ This project was started with an intention of keep coding for consective 100days
 - 3 Avocado
 - 4 SearchPage
 - 5 WikiViewer
+- 6 ImageSlider
+- 7 Portfolio
+- 8 Recipe box
+- 9 Book Review 
