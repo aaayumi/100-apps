@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    height: 100%;
+    font-family: 'Open Sans';    
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+
+/*header bg-1*/
+
+
+.bg-1 ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+}
+
+.bg-1 li {
+	margin-right: 10px;
+}
+
+.bg-1 .navbar {
+	height: 100px;
+}
+
+.firstNavbar li a{
+	text-decoration: none;
+	color: lightgrey;
+}
+
+.firstNavbar {
+	margin-top: 20px;
+
+}
+
+.navbarContact {
+	margin-top: 20px;
+	float: right;
+	color: lightgrey;
+}
+
+.rightline {
+	padding-right: 5px;
+	border-right: lightgrey 1px solid;
+}
+
+/*bg-1 */
+
+.bg-1  {
+    background-image: url(http://www.tabinotebook.com/wp-content/uploads/2017/07/IMG_0754.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	position: relative;
+	z-index: 1;
+}
+
+.bg-1 h3, .bg-1 h1, .bg-1 p {
+	margin-left: 100px;
+}
+.bg1-navbutton {
+	padding: 10px 20px;
+	border: 2px solid white;
+	background: none;
+	margin-bottom: 100px;
+	margin-right: 20px;
+	margin-left: 100px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.bg1-navbutton:hover {
+	padding: 10px 20px;
+	background: blue;
+	border: 2px solid blue;
+	margin-right: 20px;
+}
+
+.bg1-navbuttonblue {
+	padding: 10px 20px;
+	background: blue;
+	border: 2px solid blue;
+	margin-right: 20px;
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.bg1-navbuttonblue:hover{
+	padding: 10px 20px;
+	border: 2px solid white;
+	background: none;
+	margin-bottom: 100px;
+	margin-right: 20px;
+}
+
+
+/*bg-2 */
+
+.bg-2 {
+  margin-bottom: 50px;
+}
+
+.bg2-title {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.bg2-Left {
+	padding-left: 50px;
+}
+
+.bg2-img {
+	border: 1px solid grey;
+	height: 300px;
+	width: 400px;
+  margin: auto 0;
+}
+
+.bg2-img img {
+	height: 300px;
+	width: 100%;
+	padding: 10px 10px;
+}
+
+/*bg-3*/
+
+.bg-3 {
+	background-color: lightgrey;
+	height: 300px;
+}
+
+.bg-3 ul {
+	padding-top: 70px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding-bottom: 70px;
+}
+
+.bg-3 li {
+	margin-right: 10px;
+	padding-top: 20px;
+}
+
+/*bg-4*/
+.bg-4 {
+	margin-top: 100px;
+	
+}
+
+.bg-4 h3, .bg-4 p {
+	text-align: center;
+}
+
+.bg-4 p {
+	margin-bottom: 100px;
+}
+
+.bg-4 ul {
+	/*display: flex;
+	flex-direction: row; */
+	display: grid;
+    grid-template-columns : 2fr 2fr 2fr;
+	list-style: none;
+}
+
+.bg-4 li {
+	padding: 10px 10px;
+	position: relative;
+	width: 100%;
+
+}
+
+.bg-4 ul h4  {
+	position: absolute;
+	top: 100px;
+	color: white;
+	width: 250px;
+}
+
+.bg-4 ul p  {
+	position: absolute;
+	top: 200px;
+	color: white;
+	width: 250px;
+}
+
+.bg-4 img {
+	height: 350px;
+	width: 250px;
+}
+
+/* shadow 
+.bg-4 img:hover{
+	height: 300px;
+	width: 300px;
+    box-shadow: 10px 10px 5px blue;
+}
+*/
+
+/*bg-5*/
+
+.bg-5{
+	margin-top: 100px;
+	height: 300px;
+	background-image: url(http://www.tabinotebook.com/wp-content/uploads/2017/07/IMG_0754.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bg-5 h3 {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.bg-5 h4 {
+	text-align: center;
+}
+
+.bg-5 button {
+	padding: 10px 10px;
+	background: blue;
+	border: none;
+    text-align: center;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.bg-5 button:hover {
+	padding: 10px 10px;
+	border: 1px solid white;
+    background: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.bg5-button {
+	margin-top:20px;
+	text-align: center;
+}
+
+/*bg-6*/
+.bg-6 {
+	margin-top: 100px;
+}
+
+.bg-6 h3, h4 {
+	text-align: center;
+}
+
+.bg-6 ul {
+	margin-top: 40px;
+	list-style: none;
+	display: grid;
+    grid-template-columns : 2fr 2fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.bg-6 li {
+	margin-right: 10px;
+}
+
+.bg6-img {
+	height: 200px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.bg-6 img {
+	height: 200px;
+	width: 100%;
+}
+
+.bg-6 ul li h3 {
+	margin-top: 10px;
+}
+
+.bg-6 ul li p {
+	margin-top: 10px;
+}
+
+.bg-6 ul li a {
+	text-decoration: none;
+}
+
+/* footer */
+footer {
+	background: black;
+	color: white;
+}
+
+footer .row {
+	margin-left: 30px;
+	padding-bottom: 50px;
+}
+footer h3 {
+	margin-top: 100px;
+}
+footer ul {
+	list-style: none;
+}
+
+.underline {
+	padding-bottom: 10px;
+	border-bottom: white 1px solid;
+}
+
+footer ul li {
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+.footerLeft ul {
+	color: lightgrey;
+}
+
+.footerCenter ul, .footerRight ul {
+	color: blue;
+}
+
+
+
+
+
+
+
